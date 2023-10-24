@@ -193,5 +193,5 @@ contract UDex is ERC4626, Ownable, ReentrancyGuard {
         } else {
             return (positionValueWhenCreated - currentPositionValue);
         }
-    } // review all functions about decimals precision
+    } // review all function about decimals precision
 }
